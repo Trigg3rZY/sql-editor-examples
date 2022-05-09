@@ -27,6 +27,15 @@ importers:
     dependencies:
       monaco-editor: 0.33.0
 
+  packages/parsers:
+    specifiers:
+      antlr4ts: 0.5.0-alpha.4
+      antlr4ts-cli: 0.5.0-alpha.4
+    dependencies:
+      antlr4ts: 0.5.0-alpha.4
+    devDependencies:
+      antlr4ts-cli: 0.5.0-alpha.4
+
 packages:
 
   /@ampproject/remapping/2.2.0:
@@ -371,6 +380,15 @@ packages:
     dependencies:
       color-convert: 1.9.3
     dev: true
+
+  /antlr4ts-cli/0.5.0-alpha.4:
+    resolution: {integrity: sha512-lVPVBTA2CVHRYILSKilL6Jd4hAumhSZZWA7UbQNQrmaSSj7dPmmYaN4bOmZG79cOy0lS00i4LY68JZZjZMWVrw==}
+    hasBin: true
+    dev: true
+
+  /antlr4ts/0.5.0-alpha.4:
+    resolution: {integrity: sha512-WPQDt1B74OfPv/IMS2ekXAKkTZIHl88uMetg6q3OTqgFxZ/dxDXI0EWLyZid/1Pe6hTftyg5N7gel5wNAGxXyQ==}
+    dev: false
 
   /browserslist/4.20.3:
     resolution: {integrity: sha512-NBhymBQl1zM0Y5dQT/O+xiLP9/rzOIQdKM/eMJBAq7yBgaB6krIYLGejrwVYnSHZdqjscB1SPuAjHwxjvN6Wdg==}
